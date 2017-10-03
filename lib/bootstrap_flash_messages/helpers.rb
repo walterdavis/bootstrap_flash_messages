@@ -1,6 +1,6 @@
 module BootstrapFlashMessages
   module Helpers
-    def flash_messages(*args)
+    def bootstrap_flash_messages(*args)
       if flash.present?
         block = args.include?(:block)
         show_heading = args.include?(:heading)
